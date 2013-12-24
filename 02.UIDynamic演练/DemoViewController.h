@@ -12,6 +12,9 @@ typedef enum
 {
     kDemoFunctionSnap = 0,
     kDemoFunctionPush,
+    kDemoFunctionAttachment,
+    kDemoFunctionSpring,
+    kDemoFunctionCollision,
     
 } kDemoFunction;
 

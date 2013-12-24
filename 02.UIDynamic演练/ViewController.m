@@ -23,7 +23,7 @@
 {
     [super viewDidLoad];
     
-    _functions = @[@"吸附行为", @"推动行为"];
+    _functions = @[@"吸附行为", @"推动行为", @"刚性附加行为", @"弹性附加行为", @"碰撞检测"];
 }
 
 #pragma mark - 数据源方法

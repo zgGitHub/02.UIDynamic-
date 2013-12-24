@@ -10,6 +10,9 @@
 #import "DemoView.h"
 #import "SnapView.h"
 #import "PushView.h"
+#import "AttachmentView.h"
+#import "SpringView.h"
+#import "CollisionView.h"
 
 @interface DemoViewController ()
 
@@ -37,7 +40,15 @@
         case kDemoFunctionPush:
             demoView = [[PushView alloc] initWithFrame:self.view.bounds];
             break;
-            
+        case kDemoFunctionAttachment:
+            demoView = [[AttachmentView alloc] initWithFrame:self.view.bounds];
+            break;
+        case kDemoFunctionSpring:
+            demoView = [[SpringView alloc] initWithFrame:self.view.bounds];
+            break;
+        case kDemoFunctionCollision:
+            demoView = [[CollisionView alloc] initWithFrame:self.view.bounds];
+            break;
         default:
             break;
     }

@@ -25,6 +25,9 @@
 		186CF70A186926F200074E7F /* DemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 186CF709186926F200074E7F /* DemoView.m */; };
 		186CF70D1869293700074E7F /* SnapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 186CF70C1869293700074E7F /* SnapView.m */; };
 		186CF7101869343D00074E7F /* PushView.m in Sources */ = {isa = PBXBuildFile; fileRef = 186CF70F1869343D00074E7F /* PushView.m */; };
+		186CF71318695C5800074E7F /* AttachmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 186CF71218695C5800074E7F /* AttachmentView.m */; };
+		186CF7161869644200074E7F /* SpringView.m in Sources */ = {isa = PBXBuildFile; fileRef = 186CF7151869644200074E7F /* SpringView.m */; };
+		186CF71918696DB100074E7F /* CollisionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 186CF71818696DB100074E7F /* CollisionView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +68,12 @@
 		186CF70C1869293700074E7F /* SnapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnapView.m; sourceTree = "<group>"; };
 		186CF70E1869343D00074E7F /* PushView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushView.h; sourceTree = "<group>"; };
 		186CF70F1869343D00074E7F /* PushView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushView.m; sourceTree = "<group>"; };
+		186CF71118695C5800074E7F /* AttachmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttachmentView.h; sourceTree = "<group>"; };
+		186CF71218695C5800074E7F /* AttachmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttachmentView.m; sourceTree = "<group>"; };
+		186CF7141869644200074E7F /* SpringView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpringView.h; sourceTree = "<group>"; };
+		186CF7151869644200074E7F /* SpringView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpringView.m; sourceTree = "<group>"; };
+		186CF71718696DB100074E7F /* CollisionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollisionView.h; sourceTree = "<group>"; };
+		186CF71818696DB100074E7F /* CollisionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollisionView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +185,12 @@
 				186CF70C1869293700074E7F /* SnapView.m */,
 				186CF70E1869343D00074E7F /* PushView.h */,
 				186CF70F1869343D00074E7F /* PushView.m */,
+				186CF71118695C5800074E7F /* AttachmentView.h */,
+				186CF71218695C5800074E7F /* AttachmentView.m */,
+				186CF7141869644200074E7F /* SpringView.h */,
+				186CF7151869644200074E7F /* SpringView.m */,
+				186CF71718696DB100074E7F /* CollisionView.h */,
+				186CF71818696DB100074E7F /* CollisionView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -284,6 +299,9 @@
 				186CF6DC18691D7200074E7F /* main.m in Sources */,
 				186CF70D1869293700074E7F /* SnapView.m in Sources */,
 				186CF70618691F2900074E7F /* DemoViewController.m in Sources */,
+				186CF71918696DB100074E7F /* CollisionView.m in Sources */,
+				186CF71318695C5800074E7F /* AttachmentView.m in Sources */,
+				186CF7161869644200074E7F /* SpringView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
