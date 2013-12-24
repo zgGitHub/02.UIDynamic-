@@ -11,7 +11,7 @@
 typedef enum
 {
     kDemoFunctionSnap = 0,
-    kDemoFunctionAttachment,
+    kDemoFunctionPush,
     
 } kDemoFunction;
 

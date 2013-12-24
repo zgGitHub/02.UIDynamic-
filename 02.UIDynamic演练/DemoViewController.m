@@ -9,6 +9,7 @@
 #import "DemoViewController.h"
 #import "DemoView.h"
 #import "SnapView.h"
+#import "PushView.h"
 
 @interface DemoViewController ()
 
@@ -32,6 +33,9 @@
     switch (self.function) {
         case kDemoFunctionSnap:
             demoView = [[SnapView alloc] initWithFrame:self.view.bounds];
+            break;
+        case kDemoFunctionPush:
+            demoView = [[PushView alloc] initWithFrame:self.view.bounds];
             break;
             
         default:

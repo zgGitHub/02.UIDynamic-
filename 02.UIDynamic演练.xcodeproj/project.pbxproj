@@ -24,6 +24,7 @@
 		186CF70618691F2900074E7F /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186CF70518691F2900074E7F /* DemoViewController.m */; };
 		186CF70A186926F200074E7F /* DemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 186CF709186926F200074E7F /* DemoView.m */; };
 		186CF70D1869293700074E7F /* SnapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 186CF70C1869293700074E7F /* SnapView.m */; };
+		186CF7101869343D00074E7F /* PushView.m in Sources */ = {isa = PBXBuildFile; fileRef = 186CF70F1869343D00074E7F /* PushView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,8 @@
 		186CF709186926F200074E7F /* DemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoView.m; sourceTree = "<group>"; };
 		186CF70B1869293700074E7F /* SnapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnapView.h; sourceTree = "<group>"; };
 		186CF70C1869293700074E7F /* SnapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnapView.m; sourceTree = "<group>"; };
+		186CF70E1869343D00074E7F /* PushView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushView.h; sourceTree = "<group>"; };
+		186CF70F1869343D00074E7F /* PushView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +174,8 @@
 				186CF709186926F200074E7F /* DemoView.m */,
 				186CF70B1869293700074E7F /* SnapView.h */,
 				186CF70C1869293700074E7F /* SnapView.m */,
+				186CF70E1869343D00074E7F /* PushView.h */,
+				186CF70F1869343D00074E7F /* PushView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -273,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				186CF6E618691D7200074E7F /* ViewController.m in Sources */,
+				186CF7101869343D00074E7F /* PushView.m in Sources */,
 				186CF70A186926F200074E7F /* DemoView.m in Sources */,
 				186CF6E018691D7200074E7F /* AppDelegate.m in Sources */,
 				186CF6DC18691D7200074E7F /* main.m in Sources */,
