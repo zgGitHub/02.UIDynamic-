@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DemoViewController.h
 //  02.UIDynamic演练
 //
 //  Created by apple on 13-12-24.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UITableViewController
+@interface DemoViewController : UIViewController
 
 @end

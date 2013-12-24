@@ -21,6 +21,7 @@
 		186CF6F118691D7300074E7F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186CF6D318691D7200074E7F /* UIKit.framework */; };
 		186CF6F918691D7300074E7F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 186CF6F718691D7300074E7F /* InfoPlist.strings */; };
 		186CF6FB18691D7300074E7F /* _2_UIDynamic__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 186CF6FA18691D7300074E7F /* _2_UIDynamic__Tests.m */; };
+		186CF70618691F2900074E7F /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186CF70518691F2900074E7F /* DemoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		186CF6F618691D7300074E7F /* 02.UIDynamic演练Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "02.UIDynamic演练Tests-Info.plist"; sourceTree = "<group>"; };
 		186CF6F818691D7300074E7F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		186CF6FA18691D7300074E7F /* _2_UIDynamic__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _2_UIDynamic__Tests.m; sourceTree = "<group>"; };
+		186CF70418691F2900074E7F /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		186CF70518691F2900074E7F /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				186CF6E118691D7200074E7F /* Main.storyboard */,
 				186CF6E418691D7200074E7F /* ViewController.h */,
 				186CF6E518691D7200074E7F /* ViewController.m */,
+				186CF70418691F2900074E7F /* DemoViewController.h */,
+				186CF70518691F2900074E7F /* DemoViewController.m */,
 				186CF6E718691D7200074E7F /* Images.xcassets */,
 				186CF6D618691D7200074E7F /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 				186CF6E618691D7200074E7F /* ViewController.m in Sources */,
 				186CF6E018691D7200074E7F /* AppDelegate.m in Sources */,
 				186CF6DC18691D7200074E7F /* main.m in Sources */,
+				186CF70618691F2900074E7F /* DemoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
