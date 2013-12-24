@@ -7,6 +7,8 @@
 //
 
 #import "DemoViewController.h"
+#import "DemoView.h"
+#import "SnapView.h"
 
 @interface DemoViewController ()
 
@@ -14,11 +16,29 @@
 
 @implementation DemoViewController
 
+//- (void)loadView
+//{
+//    self.view = [[DemoView alloc] initWithFrame:[UIScreen mainScreen].applicationFrame];
+//}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
-	[self.view setBackgroundColor:[UIColor whiteColor]];
+    
+    NSLog(@"功能代号： %d", self.function);
+    // 在此根据实际的功能代号加载实际的视图
+    
+    DemoView *demoView = nil;
+    switch (self.function) {
+        case kDemoFunctionSnap:
+            demoView = [[SnapView alloc] initWithFrame:self.view.bounds];
+            break;
+            
+        default:
+            break;
+    }
+    
+    [self.view addSubview:demoView];
 }
 
 

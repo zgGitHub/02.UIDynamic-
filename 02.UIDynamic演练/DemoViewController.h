@@ -8,6 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
+typedef enum
+{
+    kDemoFunctionSnap = 0,
+    kDemoFunctionAttachment,
+    
+} kDemoFunction;
+
 @interface DemoViewController : UIViewController
+
+// 要演练的功能类型
+@property (nonatomic, assign) kDemoFunction function;
 
 @end

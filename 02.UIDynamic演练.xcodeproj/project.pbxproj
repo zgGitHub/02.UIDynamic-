@@ -22,6 +22,8 @@
 		186CF6F918691D7300074E7F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 186CF6F718691D7300074E7F /* InfoPlist.strings */; };
 		186CF6FB18691D7300074E7F /* _2_UIDynamic__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 186CF6FA18691D7300074E7F /* _2_UIDynamic__Tests.m */; };
 		186CF70618691F2900074E7F /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186CF70518691F2900074E7F /* DemoViewController.m */; };
+		186CF70A186926F200074E7F /* DemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 186CF709186926F200074E7F /* DemoView.m */; };
+		186CF70D1869293700074E7F /* SnapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 186CF70C1869293700074E7F /* SnapView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,10 @@
 		186CF6FA18691D7300074E7F /* _2_UIDynamic__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _2_UIDynamic__Tests.m; sourceTree = "<group>"; };
 		186CF70418691F2900074E7F /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
 		186CF70518691F2900074E7F /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		186CF708186926F200074E7F /* DemoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoView.h; sourceTree = "<group>"; };
+		186CF709186926F200074E7F /* DemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoView.m; sourceTree = "<group>"; };
+		186CF70B1869293700074E7F /* SnapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnapView.h; sourceTree = "<group>"; };
+		186CF70C1869293700074E7F /* SnapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnapView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +121,7 @@
 		186CF6D518691D7200074E7F /* 02.UIDynamic演练 */ = {
 			isa = PBXGroup;
 			children = (
+				186CF7071869269D00074E7F /* View */,
 				186CF6DE18691D7200074E7F /* AppDelegate.h */,
 				186CF6DF18691D7200074E7F /* AppDelegate.m */,
 				186CF6E118691D7200074E7F /* Main.storyboard */,
@@ -155,6 +162,17 @@
 				186CF6F718691D7300074E7F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		186CF7071869269D00074E7F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				186CF708186926F200074E7F /* DemoView.h */,
+				186CF709186926F200074E7F /* DemoView.m */,
+				186CF70B1869293700074E7F /* SnapView.h */,
+				186CF70C1869293700074E7F /* SnapView.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,8 +273,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				186CF6E618691D7200074E7F /* ViewController.m in Sources */,
+				186CF70A186926F200074E7F /* DemoView.m in Sources */,
 				186CF6E018691D7200074E7F /* AppDelegate.m in Sources */,
 				186CF6DC18691D7200074E7F /* main.m in Sources */,
+				186CF70D1869293700074E7F /* SnapView.m in Sources */,
 				186CF70618691F2900074E7F /* DemoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
