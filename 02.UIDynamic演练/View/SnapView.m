@@ -24,7 +24,8 @@
     UISnapBehavior *snap = [[UISnapBehavior alloc] initWithItem:self.box snapToPoint:location];
     
     // 振幅，0 狂震 1 轻震
-    snap.damping = arc4random_uniform(5) / 10 + 0.3;
+//    snap.damping = arc4random_uniform(5) / 10 + 0.3;
+    snap.damping = 1;
     
     // 把行为添加到仿真者中
     [self.animator addBehavior:snap];

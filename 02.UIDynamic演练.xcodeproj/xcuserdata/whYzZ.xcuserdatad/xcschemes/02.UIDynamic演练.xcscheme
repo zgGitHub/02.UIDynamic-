@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "186CF6CB18691D7200074E7F"
-               BuildableName = "02.UIDynamic&#x6f14;&#x7ec3;.app"
-               BlueprintName = "02.UIDynamic&#x6f14;&#x7ec3;"
-               ReferencedContainer = "container:02.UIDynamic&#x6f14;&#x7ec3;.xcodeproj">
+               BuildableName = "02.UIDynamic&#28436;&#32451;.app"
+               BlueprintName = "02.UIDynamic&#28436;&#32451;"
+               ReferencedContainer = "container:02.UIDynamic&#28436;&#32451;.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "186CF6EC18691D7300074E7F"
-               BuildableName = "02.UIDynamic&#x6f14;&#x7ec3;Tests.xctest"
-               BlueprintName = "02.UIDynamic&#x6f14;&#x7ec3;Tests"
-               ReferencedContainer = "container:02.UIDynamic&#x6f14;&#x7ec3;.xcodeproj">
+               BuildableName = "02.UIDynamic&#28436;&#32451;Tests.xctest"
+               BlueprintName = "02.UIDynamic&#28436;&#32451;Tests"
+               ReferencedContainer = "container:02.UIDynamic&#28436;&#32451;.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "186CF6CB18691D7200074E7F"
-            BuildableName = "02.UIDynamic&#x6f14;&#x7ec3;.app"
-            BlueprintName = "02.UIDynamic&#x6f14;&#x7ec3;"
-            ReferencedContainer = "container:02.UIDynamic&#x6f14;&#x7ec3;.xcodeproj">
+            BuildableName = "02.UIDynamic&#28436;&#32451;.app"
+            BlueprintName = "02.UIDynamic&#28436;&#32451;"
+            ReferencedContainer = "container:02.UIDynamic&#28436;&#32451;.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "186CF6CB18691D7200074E7F"
-            BuildableName = "02.UIDynamic&#x6f14;&#x7ec3;.app"
-            BlueprintName = "02.UIDynamic&#x6f14;&#x7ec3;"
-            ReferencedContainer = "container:02.UIDynamic&#x6f14;&#x7ec3;.xcodeproj">
+            BuildableName = "02.UIDynamic&#28436;&#32451;.app"
+            BlueprintName = "02.UIDynamic&#28436;&#32451;"
+            ReferencedContainer = "container:02.UIDynamic&#28436;&#32451;.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "186CF6CB18691D7200074E7F"
-            BuildableName = "02.UIDynamic&#x6f14;&#x7ec3;.app"
-            BlueprintName = "02.UIDynamic&#x6f14;&#x7ec3;"
-            ReferencedContainer = "container:02.UIDynamic&#x6f14;&#x7ec3;.xcodeproj">
+            BuildableName = "02.UIDynamic&#28436;&#32451;.app"
+            BlueprintName = "02.UIDynamic&#28436;&#32451;"
+            ReferencedContainer = "container:02.UIDynamic&#28436;&#32451;.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
